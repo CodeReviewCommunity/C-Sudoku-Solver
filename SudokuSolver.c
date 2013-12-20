@@ -4,7 +4,7 @@ int isAvailable(int puzzle[][9], int row, int col, int num)
 {
     int rowStart = (row/3) * 3;
     int colStart = (col/3) * 3;
-    int i, j;
+    int i;
 
     for(i=0; i<9; ++i)
     {
